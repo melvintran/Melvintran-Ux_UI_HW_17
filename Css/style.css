@@ -3,8 +3,8 @@
     vertical-align: top;
 }
 .logo {
-    width: 23%;
-    padding: 5%;
+    width: 25%;
+    padding: 10%;
     text-align: center;
 }
 nav {
@@ -15,7 +15,10 @@ nav {
     text-align:left;
 }
 
+.selfimage{
+    text-align: center;
 
+}
 
 ul {
     width: 50%;
