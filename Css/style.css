@@ -1,23 +1,45 @@
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+header {
+  background-color: rgba(255,255, 255 ,0.87);
+  padding: 1px;
+  top: 0;
+  box-shadow: 0px 3px 5px #D9D3CB;
+  width: 100%;
 }
-.logo {
-    width: 25%;
+.inline-block {
+    float: right;
+    vertical-align: top;
+    padding: 1%;
+    width: 500px;
+  
+    
+}
+.tabs{
+  display: inline-block;
+  vertical-align: top;
+  
+}
+.LOGO {
+    width: 200%;
     padding: 10%;
     text-align: center;
 }
 nav {
-    display: inline-flex;
+    float: right;
     width: 100%;
     padding: 5px;
     background-color: #7B031F;
     text-align:left;
 }
 
+.heroimg{
+  display: inline-flex;
+}
 .selfimage{
-    text-align: center;
-
+   flex-direction: row;
+   border-radius: 50%;
+   border: solid 5px #7B031F;
+   flex-direction: column;
+   display: inline-flex;
 }
 
 ul {
@@ -27,7 +49,7 @@ ul {
     color: white;
 }
 .heroImg {
-    height: 600px;
+    height: 500px;
     padding: 25px;
 }
 .content {
@@ -39,7 +61,8 @@ button {
     font-size: 16px;
     color: black;
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif 
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50%;
 }
 footer {
     background-color:#7B031F;
@@ -76,4 +99,41 @@ footer {
         animation: spin 3s ease-out;
         width: 50px;
       }
-      
+
+.text{
+  font-size: 16px;
+  color: black;
+  margin-left: auto;
+  display: inline;
+}
+.p{
+  font-size: 16px;
+}
+.flexContainer{
+  flex-direction: initial;
+  display: flex;
+  width: 100%;
+  padding: 100px;
+  margin: auto;
+}
+
+.workGrid{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+@media only screen and (max-width:600px){
+ body{
+  display: flex ;
+  flex-direction: column;
+  width: 100%;
+
+ }
+}
+.allprojects{
+  display: flex;
+  justify-content: center;
+  border-radius: 0;
+}
+.responsive:hover{
+  background-color: red;
+}
